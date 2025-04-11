@@ -1,1 +1,33 @@
+<<<<<<< HEAD
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    background: #f4f4f4;
+}
 
+.header {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    gap: 50px;
+ 
+} 
+
+ 
+.navbar a {
+    text-decoration: underline;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+}
+ 
+.navbar a:hover {
+    color: #000000;
+}
+=======
+
+>>>>>>> f2673ee506f0bffe384bfafcde52cbfc48b08907
