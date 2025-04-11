@@ -1,6 +1,7 @@
 body {
     background-image:url("../kepek/hatterkep.jpg");
     background-size: 100%;
+    
 }
 section {
 text-align: center;
@@ -20,3 +21,10 @@ section a {
 color:lightgray;
 text-decoration: none;
 }
+
+p {
+    color:cornsilk;
+    color:lightgray;
+   text-align: end;
+   
+    }
