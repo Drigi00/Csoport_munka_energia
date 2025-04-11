@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -23,11 +22,10 @@ body {
     color: #333;
     font-size: 16px;
     font-weight: 500;
+    padding: 30px;
+    
 }
  
 .navbar a:hover {
     color: #000000;
 }
-=======
-
->>>>>>> f2673ee506f0bffe384bfafcde52cbfc48b08907
