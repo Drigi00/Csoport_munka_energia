@@ -10,8 +10,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: cursive;
-    background: #f4f4f4;
-    background-image:url("../vince/kepek1/képek/1693432526985.png");
+    background: #f4f4f4;   
+    background-image: url("../vince/kepek1/képek/sun-rays-through-the-forest-trees-road-ultra-nature-forests.jpg");
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -38,6 +38,3 @@
     color: #000000;
 }
 
-body{   
-    background-image: url("../vince/kepek1/képek/ZxZGT4F3NbkBXxEy_NbSsolutions-PostCover.avif");
-}
