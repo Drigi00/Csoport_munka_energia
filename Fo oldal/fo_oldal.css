@@ -25,6 +25,7 @@ text-decoration: none;
 p {
     color:cornsilk;
     color:lightgray;
-   text-align: end;
-   
+    position: absolute;
+    bottom: 0;
+    
     }
