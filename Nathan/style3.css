@@ -1,39 +1,38 @@
-section{
-    display: grid;
-    grid-template-columns: 2fr 1fr; 
-}
-
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: cursive;
-    background: #f4f4f4;
-}
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+   }
+   article {
+    max-width: 800px;
+    margin: auto;
+   }
+   section.ptl {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    border: 2px solid #0074c2; /* kék keret */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+   }
+   .ps {
+    grid-column: 1 / -1;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+   }
+   .kep img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+   }
+   .szoveg {
+    display: flex;
+    align-items: center;
+   }
 
-.header {
-    width: 100%;
-    height: 40px;
-    background: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding-top: 30px;
-} 
+    
 
- 
-.navbar a {
-    text-decoration: underline;
-    color: #333;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 60px;
-}
- 
-.navbar a:hover {
-    color: #000000;
-}
-article {
-    img {
-        float: right;
-      }
-}
+
