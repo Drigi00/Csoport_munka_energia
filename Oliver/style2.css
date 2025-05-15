@@ -65,3 +65,35 @@ img {
     height: auto;
     border-radius: 10px;
 }
+
+@media (min-width: 601px) and (max-width: 900px) {
+  section {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .link {
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .szoveg1, .szoveg2, .kep1, .kep2 {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .szoveg1, .szoveg2, .kep1, .kep2 {
+    flex: 1 1 100%;
+  }
+
+  .link {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
