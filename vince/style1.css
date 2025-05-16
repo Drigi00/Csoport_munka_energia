@@ -100,3 +100,8 @@ h1 {
 .link a:hover {
   text-decoration: underline;
 }
+
+.kep{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
